@@ -1,0 +1,107 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.top-bar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 70px;
+	background-color: #f8f8ff;
+	border-bottom: 3px solid #dcdcdc;
+	z-index: 9999;
+}
+
+.top-bar h1{
+	color: #FF8C00;
+	padding-top: 1px;
+	padding-left: 65px;
+}
+
+.container{
+	margin-top: 70px;
+	background-color: #f8f8ff;
+	height: 1000px;
+}
+
+.main{
+	height: 800px;
+	width: 700px;
+	margin: auto;
+}
+
+form{
+	height: 600px;
+	background-color: white;
+}
+
+.box input[name = "judul"] {
+	border: 0;
+	background-color: none;
+	display: inline-block;
+	margin: 5px auto;
+	height: 30px;
+	width: 680px;
+	outline: none;
+	border: 2px solid white;
+	padding: 5px;
+	border-bottom: 3px solid #dcdcdc;
+}
+
+.box textarea[name = "isi"] {
+	border: 0;
+	background-color: none;
+	display: inline-block;
+	margin: 5px auto;
+	outline: none;
+	padding: 5px;
+	border: 2px solid white;
+}
+
+.box input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: inline-block;
+	width: 50px;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #FF8C00;
+	padding: 18px 20px;
+	outline: none;
+	color: #FF8C00;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: 0.5s;
+	position: absolute;
+	top: 540px;
+	left: 930px;
+	background-image: url(img/kirim.png);
+	background-size: cover;
+}
+
+.footer{
+	height: 150px;
+	background-color: #f8f8ff;
+	border-top: 3px solid #dcdcdc;
+}
+
+.footer h2{
+	color: #FF8C00;
+	padding-left: 10px;
+}
+
+.footer a{
+	text-decoration-line: none; 
+	display: inline-block;
+	color: #ff7f50;
+}
+
+.footer li{
+	list-style-type: none;
+	padding: 5px;
+	padding-left: 100px;
+}
+
